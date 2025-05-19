@@ -1,6 +1,9 @@
 export interface EntryType {
   country: string;
-  img: string;
+  img: {
+    src: string,
+    alt: string
+  };
   mapsLink: string;
   title: string;
   dates: string;

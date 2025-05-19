@@ -5,7 +5,7 @@ export default function Entry(props: EntryType) {
   return (
     <article className="journal-entry">
       <div className="main-image-container">
-        <img className="main-image" src={props.img} alt={props.title} />
+        <img className="main-image" src={props.img.src} alt={props.img.alt} />
       </div>
       <div className="info-container">
         <img className="marker" src={markerIcon} alt="map marker icon" />
